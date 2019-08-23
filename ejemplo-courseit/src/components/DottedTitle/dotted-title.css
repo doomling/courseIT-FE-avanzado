@@ -1,0 +1,31 @@
+.title-container {
+  width: 70%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto 30px;
+
+}
+
+h4 {
+  font-size: 30px;
+  color: #5225bd;
+  font-weight: lighter;
+}
+
+.dotted-content {
+  height: 50px;
+  width: 50%;
+  background-image: -webkit-repeating-radial-gradient(center center,
+      #5225bd,
+      #5225bd 1.5px,
+      transparent 1.5px,
+      transparent 100%);
+  background-image: repeating-radial-gradient(center center,
+      #5225bd,
+      #5225bd 1.5px,
+      transparent 1.5px,
+      transparent 100%);
+  background-size: 15px 15px;
+}
